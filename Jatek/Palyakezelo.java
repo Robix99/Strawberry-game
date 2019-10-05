@@ -141,7 +141,9 @@ public class Palyakezelo extends JFrame{
 		add(panel);
 
 		setVisible(true);
-		
+		panel.invalidate();
+		panel.validate();
+		panel.repaint();
 		this.almaszam=almaszam;
 		this.cseresznyeszam=cseresznyeszam;
 		this.eperszam=eperszam;
